@@ -8,21 +8,25 @@ export default function App() {
   return (
     <body>
       <div className="App">
-        <Spline scene="https://prod.spline.design/hWFn4mygo3IaW4u7/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/3IOM2PXwFxPmyeYa/scene.splinecode" />
       </div>
-      <main>
-        <nav>
-          <div>HOME PAGE</div>
-          <div>TIKTOK</div>
-        </nav>
-        <footer>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
-        </footer>
-      </main>
-      
+      <nav>
+        <div>
+          <h1>WIB</h1>
+        </div>
+        <div>
+          <div>
+            <a>Home</a>
+            <a>About</a>
+            <a>Services</a>
+            <a>Contact</a>
+          </div>
+          <div>
+            <a>Learn More</a>
+          </div>
+          
+        </div>
+      </nav>
     </body>
   );
 }
